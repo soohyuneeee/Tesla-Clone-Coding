@@ -1,0 +1,60 @@
+.Container{
+width:100%;
+background-color:white;
+height:50px;
+
+line-height: 50px;
+position: fixed;
+
+}
+.top{
+  text-align: center;
+}
+.top a{
+  color:black;
+}
+
+.Logo{
+backgroud-color:transparent;
+height:auto;
+width:100%;
+display:flex;
+align-items:center;
+text-align: center;
+}
+.Logo ol{
+  display: flex;
+  line-height:150%;
+  width: 100%;
+  margin: 0%;
+  float: right;
+  text-decoration:none;
+  list-style-type:none;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+.RightLogo  ol{
+  display: flex;
+  width: fit-content;
+  margin-left: 150px;
+
+}
+.Logo ol li a {
+  margin:50px;
+  outline:none;
+  color:black;
+  text-align: center;
+  font-size: 18px;
+  line-height: 50px;
+  height: auto;
+  list-style-type:none;
+  width:auto; 
+}
+
+.Logo ol li{
+  margin-right: 75px;
+}
+.logo{
+  background-image: url('./public/image/tesla.png');
+}
