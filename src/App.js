@@ -1,13 +1,18 @@
 import React from 'react';
-import Header from './components/Header.js';
-import Home from './components/Home.js';
+import Main from './components/Main';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import ModelY from './components/ModelY';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Home />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Main/>}/>
+          <Route path='/ModelY' element={<ModelY/>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

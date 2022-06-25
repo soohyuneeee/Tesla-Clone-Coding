@@ -13,19 +13,19 @@ function Header(){
         </div>
             <nav className='Logo'>
                     <ol>
-                    <li><a href='d'>Model S</a></li>
-                    <li><a href='d'>Model 3</a></li>
-                    <li><a href='d'>Model X</a></li>
-                    <li><a href='d'>Model Y</a></li>
-                    <li><a href='d'>Cibertruck</a></li>
-                    <li><a href='d'>Powerwall</a></li>
+                    <li><a href='/'>Model S</a></li>
+                    <li><a href='/'>Model 3</a></li>
+                    <li><a href='/'>Model X</a></li>
+                    <li><a href='/'>Model Y</a></li>
+                    <li><a href='/'>Cybertruck</a></li>
+                    <li><a href='/'>Powerwall</a></li>
                     </ol>
                 
                 <nav className='RightLogo'>
                     <ol>
-                    <li><a href='d'>Shop</a></li>
-                    <li><a href='d'>계정</a></li>
-                    <li><a href='d'>모델</a></li>
+                    <li><a href='/'>Shop</a></li>
+                    <li><a href='/'>계정</a></li>
+                    <li><a href='/'>모델</a></li>
                     </ol>
                 </nav>
                 </nav>

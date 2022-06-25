@@ -15,7 +15,7 @@ position: fixed;
 }
 
 .Logo{
-backgroud-color:transparent;
+background-color:transparent;
 height:auto;
 width:100%;
 display:flex;
@@ -56,5 +56,5 @@ text-align: center;
   margin-right: 75px;
 }
 .logo{
-  background-image: url('./public/image/tesla.png');
+  background-image: url('../../public/images/tesla.png');
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import './section.css';
 import styled from 'styled-components';
 import {Fade} from "react-reveal";
+import { Link } from 'react-router-dom';
 
 function Section (
     {
@@ -11,20 +12,27 @@ function Section (
         rightBtnText,
         backgroundImg,
     }
-){
+)
+{
+  const testHandler = event => {
+    console.log(title);
+    if(title !== 'Model Y') event.preventDefault();
+  }
     return( 
     <Wrap bgImange={backgroundImg}>
       <div className='Fade'>
         <div className='ItemText'>
             <h1>{title}</h1>
-            <a href="dd" class="application-link">{description}</a>
+            <a href="/" class="application-link">{description}</a>
         </div>
         </div>
         <div className='Buttons'>
           <div className='Fade'>
         <div className='ButtonGroup'>
-            <div className='LeftButton'>{leftBtnText}</div>
-            {rightBtnText&&<div className='RightButton'>{rightBtnText}</div>}
+          <Link to='/ModelY'>
+            <button className='LeftButton' onClick={testHandler}>{leftBtnText}</button>
+          </Link>
+          {rightBtnText&&<button className='RightButton'>{rightBtnText}</button>}
         </div>
         </div>
 
