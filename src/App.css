@@ -194,3 +194,19 @@
     position: fixed;
     width: 75%;
   }
+
+  .performance--li{
+    margin-top: 0.5em;
+  }
+
+  .performance--h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.75em;
+    margin:0.5em;
+  }
+
+  .performance--subtitle{
+    display: block;
+    text-align: center;
+  }
