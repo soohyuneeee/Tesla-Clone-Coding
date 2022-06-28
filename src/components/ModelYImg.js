@@ -1,6 +1,8 @@
 import React from "react";
 
-export default function ModelYMain(props){
+export default function ModelYImg(props){
+
+    console.log(props.carimg);
 
     let carImg = `../images/${props.carimg}.png`
 
@@ -10,7 +12,3 @@ export default function ModelYMain(props){
         </div>
     )
 }
-
-// ModelYMain.defaultProps = {
-//     img: 'basic--car'
-// };
