@@ -9,7 +9,7 @@
 }
 
 .orderheader{
-  height: 120px;
+  height: 100px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -29,6 +29,7 @@
   align-items: center;
   border-radius: 50px;
   margin-right: 24px;
+  background-color: white;
 }
 
 .orderheader--web{
@@ -148,8 +149,8 @@ button:hover {
 }
 
 .color--btn {
-  width: 54px;
-  height: 54px;
+  /* width: 54px; */
+  height: 58px;
   background-color: white;
   border: 0px solid;
   border-radius: 100%;
@@ -170,8 +171,12 @@ button:hover {
   color: gray;
 }
 
-.img--div img {
+.img--div{
   position: fixed;
+  left: 0px;
+}
+
+.img--div img {
   width: 75%;
   margin-top: 30px;
 }
@@ -190,4 +195,8 @@ button:hover {
 .performance--subtitle {
   display: block;
   text-align: center;
+}
+
+.wheel--div{
+  position: static;
 }

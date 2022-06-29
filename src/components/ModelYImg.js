@@ -1,10 +1,9 @@
 import React from "react";
 
 export default function ModelYImg(props){
-
-    console.log(props.carimg);
-
-    let carImg = `../images/${props.carimg}.png`
+    let form = props.form?'basic':'perform';
+    console.log(form + '--' + props.color + props.wheel);
+    let carImg = `../images/${form}--${props.color}${props.wheel}.png`
 
     return(
         <div className="img--div">
