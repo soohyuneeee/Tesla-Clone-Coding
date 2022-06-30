@@ -4,7 +4,7 @@ export default function Performance(){
     return(
         <div>
             <h2 className="performance--h2">퍼포먼스 업그레이드</h2>
-            <span className="performace--subtitle">포함</span>
+            <span className="performance--subtitle">포함</span>
             <ul>
                 <li className="performance--li">최고 속도를 217km/h에서 250km/h로 증가</li>
                 <li className="performance--li">21인치 Überturbine 휠</li>
