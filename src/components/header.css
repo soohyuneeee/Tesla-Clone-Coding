@@ -1,60 +1,89 @@
-.Container{
-width:100%;
-background-color:white;
-height:50px;
-
-line-height: 50px;
-position: fixed;
-
-}
-.top{
+.top {
   text-align: center;
-}
-.top a{
-  color:black;
-}
-
-.Logo{
-background-color:transparent;
-height:auto;
-width:100%;
-display:flex;
-align-items:center;
-text-align: center;
-}
-.Logo ol{
-  display: flex;
-  line-height:150%;
   width: 100%;
-  margin: 0%;
-  float: right;
-  text-decoration:none;
-  list-style-type:none;
-  margin: 0%;
-  padding: 0%;
+  height: 3.5vh;
+  background-color: white;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
   text-align: center;
+  vertical-align:middle;
+
 }
-.RightLogo  ol{
+
+.top a {
+  color: black;
+  font-size: 13px;
+}
+
+
+
+nav {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100vw;
+  padding-top: 3vh;
+  text-align: center;
+  background-color: rgba(0, 0,0, 0);
+}
+
+nav li a{
+  display: inline-block;
+}
+nav li:hover{
+background-color: rgba(0, 0,0, 0.3);
+border-radius: 13px;
+}
+nav li {
+  margin: 0.3vw;
+}
+
+.title {
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  width: fit-content;
-  margin-left: 150px;
-
-}
-.Logo ol li a {
-  margin:50px;
-  outline:none;
-  color:black;
   text-align: center;
-  font-size: 18px;
-  line-height: 50px;
-  height: auto;
-  list-style-type:none;
-  width:auto; 
+  justify-content: center;
+  width: 100%;
+}
+.title li {
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  
 }
 
-.Logo ol li{
-  margin-right: 75px;
+.title li a {
+  display:inline-block;
+  text-align: center;
+  margin: .25rem;
+  border-radius: 10px;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color:black;
+  background: (0,0,0,0);
+  border-width:1px 0;
 }
-.logo{
+
+.container {
+  height: 2.8vh;
+  display: flex;
+}
+.teslaimg{
+  
+  height: 120px;
+  background-color: black;
+
+}
+
+
+.logo {
   background-image: url('../../public/images/tesla.png');
+}
+
+
+.top {
+  position: absolute;
 }

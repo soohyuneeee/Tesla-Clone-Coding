@@ -2,8 +2,12 @@ import React from 'react';
 import styled from "styled-components"
 import Section from "./Section";
 import Footer from "./Footer";
+import Header from './Header.js';
+
 function Home (){
     return (
+      <>
+    <Header/>
     <Container>
         <Section
         title="Model Y"
@@ -41,11 +45,13 @@ function Home (){
         leftBtnText="자세히 알아보기"
         
         />
+      
         <Footer/>
         
         
 
     </Container>
+    </>
     );
 }
 export default Home;
