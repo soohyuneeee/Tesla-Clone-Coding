@@ -9,15 +9,17 @@ export default function ModelYImg(props){
         window.addEventListener('scroll', updateScroll);
     });
 
-    console.log(props.interior);
-
     let form = props.form?'basic':'perform';
-    console.log(form + '--' + props.color + props.wheel);
     let carImg = `../images/${form}--${props.color}${props.wheel}.png`
 
     return(
         <div className="img--div">
-            <img src={scrollPosition < 600 ? carImg : `../images/interior--car--${props.interior}.jpg`}  alt="차 사진"></img>
+            {
+                scrollPosition > 1000?
+                    <video src="https://www.tesla.com/ns_videos/model3/autopilot/navigate-on-autopilot.mp4" className="img" autoPlay={true} muted={true} loop={true}></video>
+                :
+                    <img src={scrollPosition < 600 ? carImg : `../images/interior--car--${props.interior}.jpg`} alt="차 사진"></img>
+            }
         </div>
     )
 }

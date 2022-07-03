@@ -47,7 +47,7 @@
 }
 
 .car--name {
-  text-align: center !important;
+  text-align: center;
   font-size: 2.5em;
   font-weight: normal;
 }
@@ -121,6 +121,17 @@
   height: 2.5em;
 }
 
+.add {
+  display: block;
+  margin: 40px auto 20px;
+  border-radius: 50px;
+  border: 0px solid;
+  width: 10em;
+  height: 2.5em;
+  background-color: #3457b1;
+  color: white;
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -135,12 +146,17 @@ button:hover {
 
 .color, .wheel, .interior {
   margin-top: 9em;
+  /* text-align: center; */
+}
+
+.info--div{
   text-align: center;
 }
 
 .detail--title {
   font-size: 1.75em;
   font-weight: normal;
+  text-align: center;
 }
 
 .color--btn--div, .wheel--btn--div, .interior--btn--div {
@@ -186,6 +202,7 @@ button:hover {
 
 .performance--li, .interior--li {
   margin-top: 0.5em;
+  font-size: 0.9em;
   text-align: left;
 }
 
@@ -209,4 +226,19 @@ button:hover {
 .interior--subtitle{
   font-size: 1.2em;
   font-weight: normal;
+  text-align: center;
+}
+
+.img{
+  width: 70%;
+}
+
+.button--span{
+  display: flex;
+  margin-top: -20px;
+}
+
+.realize{
+  text-align: left !important;
+  font-size: 1em; 
 }

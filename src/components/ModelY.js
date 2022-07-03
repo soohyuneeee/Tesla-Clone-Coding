@@ -153,7 +153,9 @@ export default function ModelY() {
                                 setColor('red');
                             }}><img src="../images/Paint_Red.png" alt="red" className="color--img"></img></button>
                         </div>
-                        <span className="color--name">{colorName}</span><span className="color--price">{colorPrice}</span>
+                        <div className="info--div">
+                            <span className="color--name">{colorName}</span><span className="color--price">{colorPrice}</span>
+                        </div>
                     </div>
                     <div className="wheel">
                         <h4 className="detail--title">휠</h4>
@@ -170,7 +172,9 @@ export default function ModelY() {
                                     <button className="wheel--btn" style={{ border: '3px solid #3457b1' }}><img src="../images/21.png" className="color--img" alt="바퀴사진" /></button>
                                 </div>
                         }
-                        <span className="wheel--name">{wheelName}</span><span className="wheel--price">{wheelPrice}</span>
+                        <div className="info--div">
+                            <span className="wheel--name">{wheelName}</span><span className="wheel--price">{wheelPrice}</span>
+                        </div>
                     </div>
                     <div className="interior">
                         <h4 className="detail--title">인테리어</h4>
@@ -182,17 +186,56 @@ export default function ModelY() {
                                 <img src="../images/interior_white.png" className="interior--img" alt="인테리어사진" />
                             </button>
                         </div>
-                        <span className="interior--name">{interiorName}</span><span className="interior--price">{interiorPrice}</span>
-                        <h6 className="interior--subtitle">시트 구성</h6>
+
+                        <div className="info--div">
+                            <span className="interior--name">{interiorName}</span><span className="interior--price">{interiorPrice}</span>
+
+                        </div><h6 className="interior--subtitle">시트 구성</h6>
                         <div className="wheel--btn--div">
                             <button className="interior--btn" style={{ border: '3px solid #3457b1' }}><span className="interior--img">5</span></button>
                         </div>
-                        <span className="interior--name">5인승</span><span className="interior--price">포함</span>
+
+                        <div className="info--div">
+                            <span className="interior--name">5인승</span><span className="interior--price">포함</span>
+                        </div>
                         <ul className="interior--ul">
                             <li className="interior--li">등받이 조절 가능한 2열 좌석</li>
                             <li className="interior--li">최대 수납을 위한 완전 접이식 2열 좌석</li>
                             <li className="interior--li">트렁크 내부에 위치한 전동식 좌석 폴딩 버튼</li>
                         </ul>
+                        <button className="char">특징</button>
+                    </div>
+                    <div className="interior">
+                        <h4 className="performance--h2">향상된 프로파일럿</h4>
+                        <span className="performance--subtitle">₩4,522,000</span>
+                        <ul>
+                            <li className="performance--li">내비게이트 온 오토파일럿</li>
+                            <li className="performance--li">자동 차선 변경</li>
+                            <li className="performance--li">자동 주차</li>
+                            <li className="performance--li">차량 호출</li>
+                            <li className="performance--li">스마트 차량 호출</li>
+                        </ul>
+                        <span className="button--span">
+                            <button className="add">추가하기</button>
+                            <button className="char">특징</button>
+                        </span>
+                    </div>
+                    <div className="interior">
+                        <h4 className="performance--h2">풀 셀프 드라이빙 구현 기능</h4>
+                        <span className="performance--subtitle">₩9,043,000</span>
+                        <ul>
+                            <li className="performance--li">오토파일럿 및 향상된 오토파일럿의 모든 기능</li>
+
+                        </ul>
+                        <span className="realize">출시 예정:</span>
+                        <ul>
+                            <li className="performance--li">교통 신호등 및 정지 표지판 제어</li>
+                            <li className="performance--li">시내에서 자동 주행</li>
+                        </ul>
+                        <span className="button--span">
+                            <button className="add">추가하기</button>
+                            <button className="char">특징</button>
+                        </span>
                     </div>
                 </main>
             </div>
