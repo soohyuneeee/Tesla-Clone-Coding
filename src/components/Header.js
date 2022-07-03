@@ -10,7 +10,6 @@ function Header() {
                 </section>
                 {/* <div className='logo' /> */}
                 <nav>
-                  <img src='images/tesla.png' alt="asdfsadfd" className='teslaimg'/>
                     <ol className='title'>
                         <li><a href='/'>Model S</a></li>
                         <li><a href='/'>Model 3</a></li>
