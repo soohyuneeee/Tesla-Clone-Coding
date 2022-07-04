@@ -8,7 +8,7 @@
     } */
 }
 
-.orderheader{
+.orderheader {
   height: 100px;
   width: 100%;
   display: flex;
@@ -19,11 +19,11 @@
   background-color: white;
 }
 
-.orderheader--logo{
+.orderheader--logo {
   height: 120px;
 }
 
-.orderheader--lang{
+.orderheader--lang {
   height: 25%;
   display: flex;
   align-items: center;
@@ -32,11 +32,11 @@
   background-color: white;
 }
 
-.orderheader--web{
+.orderheader--web {
   height: 16px;
 }
 
-.orderheader--text{
+.orderheader--text {
   margin: 0 8px;
 }
 
@@ -52,7 +52,7 @@
   font-weight: normal;
 }
 
-.content{
+.content {
   padding-top: 120px;
 }
 
@@ -144,12 +144,14 @@ button:hover {
   text-align: center;
 }
 
-.color, .wheel, .interior {
+.color,
+.wheel,
+.interior {
   margin-top: 9em;
   /* text-align: center; */
 }
 
-.info--div{
+.info--div {
   text-align: center;
 }
 
@@ -159,12 +161,16 @@ button:hover {
   text-align: center;
 }
 
-.color--btn--div, .wheel--btn--div, .interior--btn--div {
+.color--btn--div,
+.wheel--btn--div,
+.interior--btn--div {
   display: flex;
   justify-content: center;
 }
 
-.color--btn, .wheel--btn, .interior--btn {
+.color--btn,
+.wheel--btn,
+.interior--btn {
   /* width: 54px; */
   height: 58px;
   background-color: white;
@@ -173,7 +179,9 @@ button:hover {
   margin-bottom: 2em;
 }
 
-.color--img, .wheel--img, .interior--img {
+.color--img,
+.wheel--img,
+.interior--img {
   width: 40px;
   height: 40px;
   display: block;
@@ -183,15 +191,19 @@ button:hover {
   line-height: 40px;
 }
 
-.color--name, .wheel--name, .interior--name{
+.color--name,
+.wheel--name,
+.interior--name {
   margin-right: 10px;
 }
 
-.color--price, .wheel--price, .interior--price{
+.color--price,
+.wheel--price,
+.interior--price {
   color: gray;
 }
 
-.img--div{
+.img--div {
   position: fixed;
   left: 0px;
 }
@@ -200,7 +212,8 @@ button:hover {
   width: 75%;
 }
 
-.performance--li, .interior--li {
+.performance--li,
+.interior--li {
   margin-top: 0.5em;
   font-size: 0.9em;
   text-align: left;
@@ -219,26 +232,48 @@ button:hover {
   color: gray;
 }
 
-.interior--ul{
+.interior--ul {
   margin-top: 2.5em;
 }
 
-.interior--subtitle{
+.interior--subtitle {
   font-size: 1.2em;
   font-weight: normal;
   text-align: center;
 }
 
-.img{
+.img {
   width: 70%;
 }
 
-.button--span{
+.button--span {
   display: flex;
   margin-top: -20px;
 }
 
-.realize{
+.realize {
   text-align: left !important;
-  font-size: 1em; 
+  font-size: 1em;
+}
+
+.info--span {
+  font-size: 0.75em;
+  color: gray;
+}
+
+.payment--btn {
+  display: block;
+  margin: 30px auto 20px;
+  border-radius: 50px;
+  border: 0px solid;
+  width: 90%;
+  height: 40px;
+  background-color: #3457b1;
+  color: white;
+}
+
+.payment{
+  margin-top: 9em;
+  margin-bottom: 15em;
+  width: 80%;
 }

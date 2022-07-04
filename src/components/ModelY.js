@@ -100,7 +100,7 @@ export default function ModelY() {
             <div className="content">
                 <ModelYImg form={isPer} color={color} wheel={wheel} interior={interior} />
                 <main className="car--content">
-                    <h1 className="car--name">Model Y</h1>
+                    <h1 className="car--name"><b>Model Y</b></h1>
                     <div className="main">
                         <ul className="car--info--ul">
                             <li className="car--info"><span className="car--info--num">{distance}</span><span className="car--info--unit">km</span><br /><span className="car--info--text">주행 가능 거리</span></li>
@@ -235,6 +235,16 @@ export default function ModelY() {
                         <span className="button--span">
                             <button className="add">추가하기</button>
                             <button className="char">특징</button>
+                        </span>
+                        <span className="info--span">
+                            현재 사용가능한 기능들은 운전자의 적극적인 주의가 필요하고 운전자에게 책임이 주어집니다. 현재 차량이 자율적으로 주행하는 것이 아닙니다. 이러한 기능들이 상용화되기 위해서는 수십억 마일의 주행 테스트를 통해 차량의 자율 주행 능력이 운전자의 주행 능력보다 크게 앞선다는 사실이 검증이 되어야 하며, 일부 관할권에서는 규제 승인이 더 오래 걸릴 수 있습니다. 셀프 드라이빙 기능이 진화함에 따라 차량도 OTA 소프트웨어 업데이트를 통해 지속적으로 업그레이드됩니다.
+                        </span>
+                    </div>
+                    <div className="payment">
+                        <h4 className="performance--h2"><b>Model Y</b> 주문하기</h4>
+                        <button className="payment--btn">결제 계속하기</button>
+                        <span className="info--span">
+                            테슬라코리아 유한회사 | 사업자등록번호 : 524-88-00237 | 데이비드존파인스타인, 리리 | 통신판매업신고: 제2016-서울강남-02964호 | 사업자정보확인 | 호스팅제공자: Tesla Inc. | 주소 : 서울특별시 강남구 테헤란로 134, 14층 | 대표전화 : 080-617-1388 | <u>southkorea@tesla.com</u>
                         </span>
                     </div>
                 </main>

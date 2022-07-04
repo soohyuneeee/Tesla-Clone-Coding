@@ -15,10 +15,10 @@ export default function ModelYImg(props){
     return(
         <div className="img--div">
             {
-                scrollPosition > 1000?
+                scrollPosition > 1500 && scrollPosition < 2500?
                     <video src="https://www.tesla.com/ns_videos/model3/autopilot/navigate-on-autopilot.mp4" className="img" autoPlay={true} muted={true} loop={true}></video>
                 :
-                    <img src={scrollPosition < 600 ? carImg : `../images/interior--car--${props.interior}.jpg`} alt="차 사진"></img>
+                    <img src={scrollPosition < 600 || scrollPosition > 2500? carImg : `../images/interior--car--${props.interior}.jpg`} alt="차 사진"></img>
             }
         </div>
     )
